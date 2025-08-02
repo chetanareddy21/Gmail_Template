@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><title>Document</title>
+    <link rel="stylesheet" href="gmail_ref.css">
+    <script>
+        function check_form()
+        { 
+            return true;
+        }
+
+    </script>
+</head>
+<body>
+    <header id="main-header">
+        <div id="logo">
+            <img src="googlelogo.png">
+        </div>
+        
+            <form action="C:\Users\hemu\OneDrive\Desktop\VSCode\SampleFolder\login\logintemp.html" method="post" onsubmit="return check_form()">
+            <input type="submit" value="Login" onclick="check_form()" id="sub-main">
+            </form>
+        
+    </header>
+
+    <div id="main-container">
+        <p class="title">Create your Google Account</p>
+       
+            <div id="div-left">
+                <p class="left-p1">One account is all you need</p>
+                <p class="left-p" >One free account gets you into everything Google</p>
+                <div id="img-div">
+                <img class="img" src="g.png">
+                <img class="img" src="mail.png">
+                <img class="img" src="map.png">
+                <img class="img" src="you.png">
+                <img class="img" src="drive.png">
+                <img class="img" src="photo.png">
+                <img class="img" src="playstore.png">
+                <img class="img" src="chrome.png">
+                </div>
+            <p class="left-p1">Take it all with you</p>
+            <p class="left-p">Switch between devices, and pick up wherever you left off.</p>
+            <div id="gimage"><img src="image.png" ></div>
+        </div>
+            <div id="div-right">
+                <div class="table-class">
+                    <p class="table-head"> Name </p>
+                    <input type="text" placeholder="First" required id="input-field1">
+                    <input type="text" placeholder="Last" required id="input-field1">
+
+                    <p class="table-head">Choose your username</p>
+                    <input type="email"  id="input-field" placeholder="@gmail.com">
+
+                    <p class="table-head">Create a password</p>
+                    <input type="password" id="input-field">
+
+                    <p class="table-head">Confirm your password</p>
+                    <input type="password" id="input-field">
+
+                    <p class="table-head">Mobile Number</p>
+                    <input type="tel" placeholder="+91" id="input-field">
+
+                    <p class="table-head">Gender</p>
+                    <select id="input-field">
+                        <option selected>I am...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+
+                    <p class="table-head">Birthday</p>
+                    <select id="select-opt">
+                        <option selected>Month</option>
+                        <option>January</option>
+                        <option>Feburary</option>
+                        <option>March</option>
+                        <option>April</option>
+                    </select>
+                    <input type="number" placeholder="Day" id="birthday-date" >
+                    <input type="number" placeholder="Year" id="birthdayw">
+
+
+                 <input type="submit" value="Submit" id="textt">
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
